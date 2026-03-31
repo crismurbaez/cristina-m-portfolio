@@ -41,11 +41,11 @@ Este proyecto corresponde a la **Práctica Formativa Obligatoria 1** (PFO1) de l
 - [ ] Existe el archivo "styles.css" con estilos personalizados.
 - [x] Se utilizan selectores basados en clases e identificadores.
 - [ ] La tipografía importada desde Google Fonts se aplica correctamente en todos los elementos.
-  ### Layout y organización:
+#### Layout y organización:
 - [ ] Se ha organizado el layout (especialemnte en la sección tarjetas) utilizando Flexbox o Grid.
 - [x] Redacta: **¿Qué ventajas encontraste al utilizar Flexbox o Grid en tu proyecto?**
   > Utilizar **Flexbox** me permitió crear una estructura de tarjetas flexible que se adapta automáticamente al ancho de la pantalla, simplificando la adaptación responsive.
-  ### Estilización de componentes:
+#### Estilización de componentes:
 - [ ] Se han personalizado los estilos de tablas, botones, enlaces y formularios.
 - [ ] Se han ajustado las dimensiones de imágenes y contenedores utilizando unidades relativas (%, rem, vh).
 - [ ] Se ha implementado al menos una animación o transición (por ejemplo, efecto hover en tarjetas o botones).
