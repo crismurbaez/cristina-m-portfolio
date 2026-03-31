@@ -23,7 +23,7 @@ Este proyecto corresponde a la **Práctica Formativa Obligatoria 1** (PFO1) de l
 ### • Uso de Google Fonts
 - [x] Enlace a Google Fonts incluido en la sección "head" del HTML.
 - [ ] La tipografía importada se aplica en el sitio mediante CSS.
-- [ ] Redacta brevemente tu decisión: **¿Por qué elegiste esa fuente?**
+- [x] Redacta brevemente tu decisión: **¿Por qué elegiste esa fuente?**
   > Elegí **Manrope** por su legibilidad. Complementariamente, usé **Playwrite IE** para dar un toque humano y distintivo.
 
 ### • HTML
