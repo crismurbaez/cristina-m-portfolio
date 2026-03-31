@@ -1,0 +1,19 @@
+:root {
+    --principal:#2d3436;
+    --acento:#0984e3;
+    --fondo:#c0c8e7;
+    --texto:#294549;
+}
+
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    line-height: 1.6;
+    color: var(--texto);
+    background-color: var(--fondo);
+}
