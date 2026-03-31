@@ -1,97 +1,128 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
-        <title>Portfolio de Cristina Murguía</title>
         <!--Codificación universal de caracteres-->
         <meta charset="utf-8">
         <!--Permite diseño responsive-->
         <meta name="viewport" content="width=device-width,initial-scale=1">
-        <!--Font Manrope-->
+        <title>Portfolio de Cristina Murguía</title>
+
+        <!--Font Manrope y Cursiva Playwrite Ireland-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+IE:wght@100..400&display=swap" rel="stylesheet">
-        <!--Font Cursiva Playwrite Ireland-->
+        <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Playwrite+IE:wght@100..400&display=swap" rel="stylesheet">
+
+        <!--Estilos css-->
         <link href="./css/styles.css" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Playwrite+IE:wght@100..400&display=swap" rel="stylesheet">
     </head>
-
-    <script>
-
-    </script>
-
+    
     <body>
-        <!--Sector de navegación-->
-        <nav>
-            <p>Sobre mí</p>
-            <p>Proyectos</p>
-            <p>Contacto</p>
-        </nav>
+        <header>
+            <!--Sector de navegación-->
+            <nav>
+                <a href="#">Sobre mí</a>
+                <a href="#">Proyectos</a>
+                <a href="#">Contacto</a>
+            </nav>
+        </header>
+
         <!--Sector principal-->
         <main>
-            <section>
+            <section id="sobre-mi">
                 <h1>Sobre mí</h1>
                 <p>Descripción de quién eres, tus intereses y tu misión como desarrollador.</p>
                 <img src="./img/Foto_perfil.jpg" alt="Foto de perfil" title="Cristina Murguía">
             </section>
 
-            <section>
+            <section id="tarjetas">
                 <h1>Tarjetas</h1>
                 <p>Debe tener al menos dos tarjetas, cada una con una con imagen y texto.</p>
                 <p>Las tarjetas deben organizarse en columnas utilizando flexbox o Grid</p>
+                <div>
+                    <img src="" alt="Imagen de Rubrika">
+                    <p>Richards Catalán</p>
+                </div>
+                <div>
+                    <img src="" alt="Imagen de Empresa de Luis">
+                    <p>Luis</p>
+                </div>
+                <div>
+                    <img src="" alt="Imagen de la consultoría">
+                    <p>Diego Rodrigues</p>
+                </div>
             </section>
     
-            <section>
+            <section id="habilidades">
                 <h1>Habilidades</h1>
                 <p>Debe mostar de forma organizada, mediante un listado o una tabla, 
                     las tecnologías que dominas que deseas aprender y/o tus hobbies
                 </p>
                 <ul>
                     <li>HTML</li>
-                    <dl>
-                        <dt>Lenguaje de marcado</dt>
-                        <dd>
+                        <dl>
                             El documento que lee el navegador está escrito en un lenguaje de marcado llamado HTML, 
                             que son las siglas de HyperText Markup Language (Lenguaje de marcas de hipertexto), 
                             o lo que es lo mismo, un lenguaje de etiquetas que permite incluir o hacer referencia 
                             a todo tipo de información.
-                        </dd>
-                    </dl>
+                        </dl>
                     <li>CSS</li>
-                    <dl>
-                        <dt>Hojas de estilo</dt>
-                        <dd>
+                        <dl>
                             Las siglas CSS (Cascading Style Sheets) significan «Hojas de estilo en cascada» 
                             y parten de un concepto simple pero muy potente: aplicar estilos (colores, formas, márgenes, etc...) 
                             a uno o varios documentos (generalmente documentos HTML, páginas webs) de forma automática y masiva.
-                        </dd>
-                    </dl>
+                        </dl>
                 </ul>
             </section>
     
-            <section>
-                <h1>Contacto</h1>
-                <p>Formulario básico con los siguientes campos</p>
-                <p>Nombre</p>
-                <p>Apellido</p>
-                <p>Email</p>
-                <p>Teléfono</p>
+            <section id="contacto">
+                <form action="/contact-form/" method="post" accept-charset="utf-8">
+                    <h1>Contacto</h1>
+                    <p>Completa el formulario y nos ponemos en contacto.</p>
+                            <label for="Nombre">Nombre</label>
+                            <input type="text" id="Nombre" name="Nombre" placeholder="Nombre" required>
+                            <label for="Apellido">Apellido</label>
+                            <input type="text" id="Apellido" name="Apellido" placeholder="Apellido" required>
+                            <label for="Email">Email</label>
+                            <input type="email" id="Email" name="Email" placeholder="Email" required>
+                            <label for="Tel">Teléfono</label>
+                            <input type="tel" id="Tel" name="Tel" placeholder="Teléfono">
+                            <button type="submit" value="Enviar">
+
+                </form>
             </section>
     
-            <section>
+            <section id="peliculas">
                 <h1>Películas</h1>
                 <p>Debe presentar las tres mejores películas de la historia según tu criterio</p>
                 <p>Cada película debe incluir</p>
-                <h2>Título</h2>
-                <img src="" alt="pelicula">
-                <p>Descripción</p>
+                <div>
+                    <h2>Título</h2>
+                    <img src="" alt="pelicula">
+                    <p>Descripción</p>
+                </div>
+                <div>
+                    <h2>Título</h2>
+                    <img src="" alt="pelicula">
+                    <p>Descripción</p>
+                </div>
+                <div>
+                    <h2>Título</h2>
+                    <img src="" alt="pelicula">
+                    <p>Descripción</p>
+                </div>
             </section>
         </main>
 
-    </body>
-    <footer>
-        <p>Enlaces a redes sociales</p>
-    </footer>
+        <footer>
+            <p>&copy; 2026 Cristina Murguía - Desarrolladora Full Stack</p>
+            <div class="redes">
+                <a href="#">LinkedIn</a>
+                <a href="#">GitHub</a>
+            </div>
+        </footer>
+
+        <script src="./js/main.js"></script>
+
+    </body>    
 
 </html>
