@@ -9,51 +9,51 @@ Este proyecto corresponde a la **Práctica Formativa Obligatoria 1** (PFO1) de l
 ## Checklist - Práctica Formativa Obligatoria 1
 
 ### • Estructura del Proyecto
-- [x] Archivo "index.html" ubicado en la raíz del proyecto.
+- [x] Archivo "index.html" ubicado en la raíz.
 - [x] Carpeta "css" que contenga el archivo "styles.css".
-- [x] Carpeta "img" para recursos gráficos (fotos de perfil, proyectos y películas).
-- [x] Archivo "README.md" creado con descripción y checklist.
+- [x] Carpeta "img" para recursos gráficos.
+- [x] Archivo "README.md" creado, que incluya una breve descripción del TP y este checklist.
 
 ### • Repositorio y Publicación
-- [ ] Repositorio en GitHub creado.
-- [ ] Proyecto subido al repositorio.
+- [x] Repositorio en GitHub creado.
+- [x] Proyecto subido al repositorio.
 - [ ] Proyecto publicado utilizando GitHub Pages.
 - [ ] En el "README.md" se indica la URL de GitHub Pages.
 
 ### • Uso de Google Fonts
 - [x] Enlace a Google Fonts incluido en la sección "head" del HTML.
-- [x] La tipografía importada se aplica en el sitio mediante CSS.
-- **¿Por qué elegiste esa fuente?**
-  > Elegí **Manrope** por su legibilidad moderna y geométrica, ideal para un perfil técnico de desarrollo. Complementariamente, usé **Playwrite IE** para dar un toque humano y distintivo a los títulos, equilibrando la rigidez del código con la creatividad.
+- [ ] La tipografía importada se aplica en el sitio mediante CSS.
+- [ ] Redacta brevemente tu decisión: **¿Por qué elegiste esa fuente?**
+  > Elegí **Manrope** por su legibilidad. Complementariamente, usé **Playwrite IE** para dar un toque humano y distintivo.
 
 ### • HTML
 - [x] El documento inicia con la declaración DOCTYPE y usa el atributo lang="es".
 - [x] Se han incluido las metaetiquetas obligatorias: charset y viewport.
-- [x] Se ha definido un título descriptivo en la pestaña del navegador.
+- [x] Se ha definido un título descriptivo.
 - [x] Se han vinculado correctamente el archivo CSS y el enlace a Google Fonts.
 
 ### • Secciones obligatorias en "main":
 - [x] Barra de navegación ("nav") presente con al menos 3 enlaces funcionales.
-- [x] Sección "Sobre mí" (id: sobre-mi) con descripción e imagen (con atributo alt).
-- [x] Sección de "Tarjetas" (id: tarjetas) con al menos 2 elementos (imagen + texto).
-- [x] Sección de "Habilidades" (id: habilidades) con listado organizado por categorías.
-- [x] Sección de "Contacto" (id: contacto) con campos: Nombre, Apellido, Email y Teléfono.
-- [x] Sección de "Películas" (id: peliculas) con 3 películas (título, imagen y descripción).
-- [x] Se han insertado al menos 4 comentarios explicativos con ideas de mejora a futuro.
+- [x] Se han insertado al menos 4 comentarios explicativos en el código HTML.
+
 
 ### • CSS:
-- [x] Existe el archivo "styles.css" con estilos personalizados.
+- [ ] Existe el archivo "styles.css" con estilos personalizados.
 - [x] Se utilizan selectores basados en clases e identificadores.
-- [x] La tipografía de Google Fonts se aplica correctamente en los elementos.
-- [x] Organización del layout (sección tarjetas) utilizando Flexbox o Grid.
-- **¿Qué ventajas encontraste al utilizar Flexbox o Grid en tu proyecto?**
-  > Utilizar **Flexbox** me permitió crear una estructura de tarjetas flexible que se adapta automáticamente al ancho de la pantalla, simplificando enormemente el alineamiento de elementos sin recurrir a floats o márgenes fijos.
-- [x] Estilización personalizada de botones, enlaces y formularios.
-- [x] Uso de unidades relativas (%, rem, vh) para lograr un diseño responsivo.
-- [x] Implementación de al menos una animación o transición.
-- **¿Qué animación o transición implementaste y por qué?**
-  > Implementé una transición de **elevación (transform: translateY)** y un cambio de sombra en las tarjetas al hacer hover. Consideré que era adecuada porque ofrece un feedback visual inmediato al usuario, indicando que el elemento es interactivo y mejorando la experiencia de navegación.
+- [ ] La tipografía importada desde Google Fonts se aplica correctamente en todos los elementos.
+## Layout y organización:
+- [ ] Se ha organizado el layout (especialemnte en la sección tarjetas) utilizando Flexbox o Grid.
+- [x] Redacta: **¿Qué ventajas encontraste al utilizar Flexbox o Grid en tu proyecto?**
+  > Utilizar **Flexbox** me permitió crear una estructura de tarjetas flexible que se adapta automáticamente al ancho de la pantalla, simplificando la adaptación responsive.
+  ## Estilización de componentes:
+- [ ] Se han personalizado los estilos de tablas, botones, enlaces y formularios.
+- [ ] Se han ajustado las dimensiones de imágenes y contenedores utilizando unidades relativas (%, rem, vh).
+- [ ] Se ha implementado al menos una animación o transición (por ejemplo, efecto hover en tarjetas o botones).
+
+- [ ] Redacta: **¿Qué animación o transición implementaste y por qué?**
+  > Implementé ...
 
 ### • Consideraciones Adicionales:
-- [x] El diseño es responsivo y se visualiza correctamente en distintos dispositivos.
-- [x] Se aplicaron buenas prácticas de accesibilidad (atributos alt en todas las imágenes).
+- [ ] El diseño es responsivo y se visualiza correctamente en distintos dispositivos.
+- [x] Se aplicaron buenas prácticas de accesibilidad (por ejemplo, uso adecuado de atributos alt en todas las imágenes).
+- [ ] Se añadieron comentarios adicionales donde se describan decisiones de diseño o lógica de implementación.
