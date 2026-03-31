@@ -20,9 +20,9 @@
         <header>
             <!--Sector de navegación-->
             <nav>
-                <a href="#">Sobre mí</a>
-                <a href="#">Proyectos</a>
-                <a href="#">Contacto</a>
+                <a href="#sobre-mi">Sobre mí</a>
+                <a href="#tarjetas">Proyectos</a>
+                <a href="#contacto">Contacto</a>
             </nav>
         </header>
 
@@ -30,26 +30,40 @@
         <main>
             <section id="sobre-mi">
                 <h1>Sobre mí</h1>
-                <p>Descripción de quién eres, tus intereses y tu misión como desarrollador.</p>
+                <p>Desarrolladora Full Stack en continua actualización, apasionada por la educación y la tecnología.</p>
                 <img src="./img/Foto_perfil.jpg" alt="Foto de perfil" title="Cristina Murguía">
             </section>
 
             <section id="tarjetas">
-                <h1>Tarjetas</h1>
-                <p>Debe tener al menos dos tarjetas, cada una con una con imagen y texto.</p>
-                <p>Las tarjetas deben organizarse en columnas utilizando flexbox o Grid</p>
-                <div>
-                    <img src="" alt="Imagen de Rubrika">
-                    <p>Richards Catalán</p>
-                </div>
-                <div>
-                    <img src="" alt="Imagen de Empresa de Luis">
-                    <p>Luis</p>
-                </div>
-                <div>
-                    <img src="" alt="Imagen de la consultoría">
-                    <p>Diego Rodrigues</p>
-                </div>
+                <h1>Experiencia y Proyectos</h1>
+                <p>A continuación, detallo mis principales hitos y soluciones técnicas desarrolladas:</p>
+
+                <article class="tarjeta">
+                    <img src="./img/seguridad.png" alt="Icono representativo de Ciberseguridad y encriptación">
+                    <h3>Ciberseguridad & Retail</h3>
+                    <p><strong>Seguridad Crítica:</strong> Lideré el desarrollo de un sistema de encriptación de datos personales en SQL Server para un holding de Retail, garantizando la protección bajo estándares de auditoría.</p>
+                </article>
+
+                <article class="tarjeta">
+                    <img src="./img/data-engineering.png" alt="Esquema de flujo de datos e ingeniería">
+                    <h3>Insurtech & Data Engineering</h3>
+                    <p><strong>Data & Trazabilidad:</strong> Rediseñé el flujo de reportes de siniestros optimizando scripts en Python y Stored Procedures, asegurando la integridad entre bases de datos y reportes.</p>
+                    <p><strong>Sistemas Legados:</strong> Evolución de módulos críticos en PHP y resolución de bugs para el sector seguros.</p>
+                </article>
+
+                <article class="tarjeta">
+                    <img src="./img/arquitectura.png" alt="Diagrama de arquitectura de software escalable">
+                    <h3>Legaltech & Arquitectura</h3>
+                    <p><strong>Escalabilidad:</strong> Rediseñé la arquitectura para un gestor documental (+30 empresas) en PHP/PostgreSQL, reduciendo tiempos de implementación de semanas a procesos inmediatos.</p>
+                    <p><strong>Web-Mobile:</strong> Construcción de Web-App responsive con Angular 18 y NestJS.</p>
+                </article>
+
+                <article class="tarjeta">
+                    <img src="./img/calidad.png" alt="Sello de calidad de código y liderazgo">
+                    <h3>Liderazgo & Calidad Técnica</h3>
+                    <p><strong>Validación:</strong> Reconocimiento de consultores externos por la calidad del código en módulos clave.</p>
+                    <p><strong>Gestión:</strong> Manejo ágil de repositorios (GitLab/GitHub) bajo alta presión y plazos críticos.</p>
+                </article>
             </section>
     
             <section id="habilidades">
@@ -57,6 +71,7 @@
                 <p>Debe mostar de forma organizada, mediante un listado o una tabla, 
                     las tecnologías que dominas que deseas aprender y/o tus hobbies
                 </p>
+                <!--TODO: agregar ventanas emergentes con la explicación e imágenes de las tecnologías-->
                 <ul>
                     <li>HTML</li>
                         <dl>
@@ -73,8 +88,9 @@
                         </dl>
                 </ul>
             </section>
-    
+            
             <section id="contacto">
+                <!--Agregar el backend para el envío real del formulario-->
                 <form action="/contact-form/" method="post" accept-charset="utf-8">
                     <h1>Contacto</h1>
                     <p>Completa el formulario y nos ponemos en contacto.</p>
@@ -86,7 +102,7 @@
                             <input type="email" id="Email" name="Email" placeholder="Email" required>
                             <label for="Tel">Teléfono</label>
                             <input type="tel" id="Tel" name="Tel" placeholder="Teléfono">
-                            <button type="submit" value="Enviar">
+                            <button type="submit" value="Enviar"> Enviar </button>
 
                 </form>
             </section>
@@ -114,13 +130,13 @@
         </main>
 
         <footer>
-            <p>&copy; 2026 Cristina Murguía - Desarrolladora Full Stack</p>
+            <p>&copy; 2026 Cristina Murguía - Full Stack Developer</p>
             <div class="redes">
-                <a href="#">LinkedIn</a>
-                <a href="#">GitHub</a>
+                <a href="https://www.linkedin.com/in/cristina-murguia/">LinkedIn</a>
+                <a href="https://github.com/crismurbaez">GitHub</a>
             </div>
         </footer>
-
+        <!--Proximamente se agregará dinamismo con JS-->
         <script src="./js/main.js"></script>
 
     </body>    
