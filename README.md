@@ -22,7 +22,7 @@ Este proyecto corresponde a la **Práctica Formativa Obligatoria 1** (PFO1) de l
 
 ### • Uso de Google Fonts
 - [x] Enlace a Google Fonts incluido en la sección "head" del HTML.
-- [ ] La tipografía importada se aplica en el sitio mediante CSS.
+- [x] La tipografía importada se aplica en el sitio mediante CSS.
 - [x] Redacta brevemente tu decisión: **¿Por qué elegiste esa fuente?**
   > Elegí **Manrope** por su legibilidad. Complementariamente, usé **Playwrite IE** para dar un toque humano y distintivo.
 
@@ -38,22 +38,22 @@ Este proyecto corresponde a la **Práctica Formativa Obligatoria 1** (PFO1) de l
 
 
 ### • CSS:
-- [ ] Existe el archivo "styles.css" con estilos personalizados.
+- [x] Existe el archivo "styles.css" con estilos personalizados.
 - [x] Se utilizan selectores basados en clases e identificadores.
-- [ ] La tipografía importada desde Google Fonts se aplica correctamente en todos los elementos.
+- [x] La tipografía importada desde Google Fonts se aplica correctamente en todos los elementos.
 #### Layout y organización:
-- [ ] Se ha organizado el layout (especialemnte en la sección tarjetas) utilizando Flexbox o Grid.
+- [x] Se ha organizado el layout (especialmente en la sección tarjetas) utilizando Flexbox o Grid.
 - [x] Redacta: **¿Qué ventajas encontraste al utilizar Flexbox o Grid en tu proyecto?**
-  > Utilizar **Flexbox** me permitió crear una estructura de tarjetas flexible que se adapta automáticamente al ancho de la pantalla, simplificando la adaptación responsive.
+  > Utilicé **CSS Grid** en proyectos y habilidades las columnas que se reorganizan solas con `auto-fit`/`minmax`. **Flexbox** en el encabezado, “Sobre mí” y el formulario para alinear y repartir espacio en una o dos dimensiones según el ancho de pantalla, lo que simplifica el responsive.
 #### Estilización de componentes:
-- [ ] Se han personalizado los estilos de tablas, botones, enlaces y formularios.
-- [ ] Se han ajustado las dimensiones de imágenes y contenedores utilizando unidades relativas (%, rem, vh).
-- [ ] Se ha implementado al menos una animación o transición (por ejemplo, efecto hover en tarjetas o botones).
+- [x] Se han personalizado los estilos de tablas, botones, enlaces y formularios.
+- [x] Se han ajustado las dimensiones de imágenes y contenedores utilizando unidades relativas (%, rem, vh).
+- [x] Se ha implementado al menos una animación o transición (por ejemplo, efecto hover en tarjetas o botones).
 
-- [ ] Redacta: **¿Qué animación o transición implementaste y por qué?**
-  > Implementé ...
+- [x] Redacta: **¿Qué animación o transición implementaste y por qué?**
+  > Implementé **transiciones** en tarjetas de proyectos (elevación y sombra al hover), en la foto de perfil, en enlaces del menú y en el botón de envío, para dar feedback visual sin recargar y mantener una interfaz coherente y profesional.
 
 ### • Consideraciones Adicionales:
-- [ ] El diseño es responsivo y se visualiza correctamente en distintos dispositivos.
+- [x] El diseño es responsivo y se visualiza correctamente en distintos dispositivos.
 - [x] Se aplicaron buenas prácticas de accesibilidad (por ejemplo, uso adecuado de atributos alt en todas las imágenes).
-- [ ] Se añadieron comentarios adicionales donde se describan decisiones de diseño o lógica de implementación.
+- [x] Se añadieron comentarios adicionales donde se describan decisiones de diseño o lógica de implementación.
