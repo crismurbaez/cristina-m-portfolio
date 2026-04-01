@@ -51,7 +51,7 @@ Este proyecto corresponde a la **Práctica Formativa Obligatoria 1** (PFO1) de l
 - [x] Se ha implementado al menos una animación o transición (por ejemplo, efecto hover en tarjetas o botones).
 
 - [x] Redacta: **¿Qué animación o transición implementaste y por qué?**
-  > Implementé **transiciones** en tarjetas de proyectos (elevación y sombra al hover), en la foto de perfil, en enlaces del menú y en el botón de envío, para dar feedback visual sin recargar y mantener una interfaz coherente y profesional.
+  > Implementé **transiciones hover** en tarjetas de proyectos (`transform`, `box-shadow`, `border-color`), en la foto de perfil (`scale` + sombra), en los enlaces del menú (`color`, `background`, elevación y sombra) y en el botón de envío (`transform`, `box-shadow`, `filter`). Las elegí para dar feedback visual claro, jerarquía de interacción y mantener una estética profesional. Además, para accesibilidad, en `prefers-reduced-motion` las transiciones no se desactivan: se reducen a una duración mínima y movimientos suaves.
 
 ### • Consideraciones Adicionales:
 - [x] El diseño es responsivo y se visualiza correctamente en distintos dispositivos.
