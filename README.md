@@ -2,7 +2,7 @@
 
 Este proyecto corresponde a la **Práctica Formativa Obligatoria 1** (PFO1) de la carrera Tecnicatura en Desarrollo de Software. Se trata de una Landing Page profesional diseñada para presentar mi perfil como Full Stack Developer, integrando mis habilidades técnicas, experiencia en proyectos críticos y mis intereses personales.
 
-**URL de GitHub Pages:** [INSERTAR_AQUÍ_TU_LINK_DE_GITHUB_PAGES]
+**URL de Vercel:** https://cristina-m-portfolio.vercel.app/
 
 ---
 
@@ -17,8 +17,8 @@ Este proyecto corresponde a la **Práctica Formativa Obligatoria 1** (PFO1) de l
 ### • Repositorio y Publicación
 - [x] Repositorio en GitHub creado.
 - [x] Proyecto subido al repositorio.
-- [ ] Proyecto publicado utilizando GitHub Pages.
-- [ ] En el "README.md" se indica la URL de GitHub Pages.
+- [x] Proyecto publicado utilizando Vercel.
+- [x] En el "README.md" se indica la URL de Vercel.
 
 ### • Uso de Google Fonts
 - [x] Enlace a Google Fonts incluido en la sección "head" del HTML.
