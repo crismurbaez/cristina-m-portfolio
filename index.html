@@ -18,41 +18,47 @@
     
     <body>
         <header>
-            <!--Sector de navegación-->
-            <h1>Cristina Murguía</h1>
-            <nav>
-                <a href="#sobre-mi">Sobre mí</a>
-                <a href="#tarjetas">Proyectos</a>
-                <a href="#contacto">Contacto</a>
-            </nav>
+                <span class="logo">Cristina Murguía</span>
+                <nav>
+                    <a href="#sobre-mi">Sobre mí</a>
+                    <a href="#tarjetas">Proyectos</a>
+                    <a href="#contacto">Contacto</a>
+                </nav>
+
         </header>
 
         <!--Sector principal-->
         <main>
             <section id="sobre-mi">
                 <h1>Sobre mí</h1>
-                <p>
-                    <strong>Full Stack Developer</strong> con experiencia en arquitecturas escalables, seguridad de datos y 
-                    modernización de sistemas críticos para los sectores de <em>Legaltech, Insurtech y Retail</em>.
-                </p>
-                <p>
-                    A lo largo de mi trayectoria, me he enfocado en resolver problemas complejos de negocio: desde liderar 
-                    la encriptación de datos sensibles y optimizar flujos de reportes con <strong>Python y SQL Server</strong>, 
-                    hasta el rediseño de arquitecturas jerárquicas dinámicas (PHP/PostgreSQL) para plataformas multi-empresa. 
-                    Mi prioridad es garantizar la estabilidad, la seguridad y la eficiencia en entornos de alta transaccionalidad.
-                </p>
-                <p>
-                    Mi ecosistema de trabajo abarca desde el frontend moderno con <strong>Angular 18 y NestJS</strong> 
-                    hasta el backend robusto con <strong>Node.js, PHP y Python</strong>. Disfruto el desafío de tomar sistemas legados, 
-                    estabilizarlos y conectarlos con tecnologías actuales. Actualmente, estoy trasladando esta experiencia hacia 
-                    el desarrollo mobile multiplataforma con <strong>Flutter</strong>.
-                </p>
-                <p>
-                    Soy una profesional versátil, validada por clientes corporativos y habituada a la modalidad 
-                    de <em>Independent Contractor</em>. Me destaco por la calidad de mi código, la integración en equipos multidisciplinarios y 
-                    un enfoque firme orientado a resultados.
-                </p>
-                <img src="./img/Foto_perfil.jpg" alt="Foto de perfil" title="Cristina Murguía">
+                <div class="sobre-mi-contenido">
+                    <article class="sobre-mi-texto">
+                        <p>
+                            <strong>Full Stack Developer</strong> con experiencia en arquitecturas escalables, seguridad de datos y 
+                            modernización de sistemas críticos para los sectores de <em>Legaltech, Insurtech y Retail</em>.
+                        </p>
+                        <p>
+                            A lo largo de mi trayectoria, me he enfocado en resolver problemas complejos de negocio: desde liderar 
+                            la encriptación de datos sensibles y optimizar flujos de reportes con <strong>Python y SQL Server</strong>, 
+                            hasta el rediseño de arquitecturas jerárquicas dinámicas (PHP/PostgreSQL) para plataformas multi-empresa. 
+                            Mi prioridad es garantizar la estabilidad, la seguridad y la eficiencia en entornos de alta transaccionalidad.
+                        </p>
+                        <p>
+                            Mi ecosistema de trabajo abarca desde el frontend moderno con <strong>Angular 18 y NestJS</strong> 
+                            hasta el backend robusto con <strong>Node.js, PHP y Python</strong>. Disfruto el desafío de tomar sistemas legados, 
+                            estabilizarlos y conectarlos con tecnologías actuales. Actualmente, estoy trasladando esta experiencia hacia 
+                            el desarrollo mobile multiplataforma con <strong>Flutter</strong>.
+                        </p>
+                        <p>
+                            Soy una profesional versátil, validada por clientes corporativos y habituada a la modalidad 
+                            de <em>Independent Contractor</em>. Me destaco por la calidad de mi código, la integración en equipos multidisciplinarios y 
+                            un enfoque firme orientado a resultados.
+                        </p>
+                    </article>
+                    <article class="sobre-mi-foto">
+                        <img src="./img/Foto_perfil.jpg" alt="Foto de perfil" title="Cristina Murguía">
+                    </article>
+                </div>
             </section>
 
             <section id="tarjetas">
@@ -151,22 +157,23 @@
     
             <section id="peliculas">
                 <h1>Películas</h1>
-                <p>Debe presentar las tres mejores películas de la historia según tu criterio</p>
-                <p>Cada película debe incluir</p>
-                <div>
-                    <h2>Título</h2>
-                    <img src="" alt="pelicula">
-                    <p>Descripción</p>
-                </div>
-                <div>
-                    <h2>Título</h2>
-                    <img src="" alt="pelicula">
-                    <p>Descripción</p>
-                </div>
-                <div>
-                    <h2>Título</h2>
-                    <img src="" alt="pelicula">
-                    <p>Descripción</p>
+                <p>Las películas que en mi criterio son las mejores de la historia.</p>
+                <div class="peliculas-grid">
+                    <div class="pelicula-card">
+                        <h2>Título</h2>
+                        <img src="" alt="pelicula">
+                        <p>Descripción</p>
+                    </div>
+                    <div class="pelicula-card">
+                        <h2>Título</h2>
+                        <img src="" alt="pelicula">
+                        <p>Descripción</p>
+                    </div>
+                    <div class="pelicula-card">
+                        <h2>Título</h2>
+                        <img src="" alt="pelicula">
+                        <p>Descripción</p>
+                    </div>
                 </div>
             </section>
         </main>
