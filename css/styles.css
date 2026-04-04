@@ -16,7 +16,7 @@
     --sombra-lg: 0 20px 50px rgba(15, 23, 42, 0.12);
     --radio: 12px;
     --radio-lg: 20px;
-    --ancho-max: 1120px;
+    --ancho-max: 1600px;
     --header-h: 4rem;
 }
 
@@ -51,7 +51,8 @@ main {
 /* —— Tipografía de sección —— */
 h1 {
     font-size: clamp(1.75rem, 4vw, 2.25rem);
-    font-weight: 700;
+    font-weight: 1000;
+    font-style: italic;
     letter-spacing: -0.02em;
     color: var(--principal);
     text-align: center;
@@ -89,26 +90,63 @@ h1 {
 }
 
 /* —— Header —— */
-header {
+.header-sitio {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    min-height: 3.5rem;
-    padding: 0.75rem clamp(1rem, 5vw, 3rem);
-    background: var(--principal-soft);
+    padding: clamp(2.5rem, 8vw, 5rem) clamp(1rem, 5vw, 3rem)
+        clamp(2rem, 6vw, 3.5rem);
+    background:
+        radial-gradient(ellipse 80% 120% at 50% 0%, rgba(37, 99, 235, 0.18), transparent 55%),
+        var(--principal-soft);
     color: var(--blanco);
-    font-size: 0.95rem;
     border-bottom: 1px solid rgba(255, 255, 255, 0.08);
     box-shadow: var(--sombra-sm);
 }
 
-header .logo {
-    font-family: "Playwrite IE", "Manrope", cursive;
-    font-weight: 400;
-    font-size: 1.05rem;
-    letter-spacing: 0.02em;
-    opacity: 0.98;
+.header-marca {
+    text-align: center;
+    max-width: min(100%, 42rem);
+}
+
+.header-etiqueta {
+    font-family: "Manrope", system-ui, sans-serif;
+    font-size: clamp(0.7rem, 1.5vw, 0.8rem);
+    font-weight: 600;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+    color: rgba(147, 197, 253, 0.92);
+    margin: 0 0 1rem;
+}
+
+.logo-nombre {
+    font-family: "Playfair Display", "Georgia", serif;
+    font-weight: 600;
+    line-height: 0.92;
+    letter-spacing: -0.02em;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.08em;
+}
+
+.logo-linea {
+    display: block;
+    font-size: clamp(2.75rem, 11vw, 6rem);
+}
+
+.logo-linea--primera {
+    color: var(--blanco);
+    font-style: normal;
+}
+
+.logo-linea--segunda {
+    color: var(--acento);
+    font-style: italic;
+    font-weight: 600;
+    text-shadow: 0 0 40px rgba(37, 99, 235, 0.35);
 }
 
 #main-nav {
@@ -282,6 +320,7 @@ header .logo {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     gap: 1.25rem;
+    justify-content: center;
     margin-top: 0.5rem;
 }
 
@@ -447,6 +486,7 @@ header .logo {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     gap: 1.5rem;
+    justify-content: center;
     width: 100%;
 }
 
@@ -575,6 +615,10 @@ footer > p {
     }
 
     .habilidades-contenedor {
+        grid-template-columns: 1fr;
+    }
+
+    .peliculas-grid {
         grid-template-columns: 1fr;
     }
 }

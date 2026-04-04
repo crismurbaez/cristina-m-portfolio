@@ -7,18 +7,24 @@
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <title>Portfolio de Cristina Murguía</title>
 
-        <!--Font Manrope y Cursiva Playwrite Ireland-->
+        <!--Manrope (cuerpo), Playfair Display-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Playwrite+IE:wght@100..400&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600" rel="stylesheet">
 
         <!--Estilos css-->
         <link href="./css/styles.css" rel="stylesheet">
     </head>
     
     <body>
-        <header>
-                <span class="logo">Cristina Murguía</span>
+        <header class="header-sitio">
+            <div class="header-marca">
+                <p class="header-etiqueta">* Full Stack Developer *</p>
+                <p class="logo-nombre" aria-label="Cristina Murguía">
+                    <span class="logo-linea logo-linea--primera">Cristina</span>
+                    <span class="logo-linea logo-linea--segunda">Murguía</span>
+                </p>
+            </div>
         </header>
 
         <!--Sector principal-->
@@ -64,7 +70,7 @@
                 <h1>Experiencia y Proyectos</h1>
                 <p>A continuación, detallo mis principales hitos y soluciones técnicas desarrolladas.</p>
                 <!--TODO: agregar ventana emergente con la empresa y las recomendaciones-->
-                <article class="tarjetas">
+                <div class="tarjetas">
                     <article class="tarjeta">
                         <img src="./img/seguridad.png" alt="Icono representativo de Ciberseguridad y encriptación">
                         <h3>Ciberseguridad & Retail</h3>
@@ -91,7 +97,7 @@
                         <p><strong>Validación:</strong> Reconocimiento de consultores externos por la calidad del código en módulos clave.</p>
                         <p><strong>Gestión:</strong> Manejo ágil de repositorios (GitLab/GitHub) bajo alta presión y plazos críticos.</p>
                     </article>
-                </article>
+                </div>
             </section>
     
             <section id="habilidades">
@@ -156,7 +162,7 @@
     
             <section id="peliculas">
                 <h1>Películas</h1>
-                <p>Películas que a mi criterio son inspiradoras.</p>
+                <p>Películas que inspiran...</p>
                 <div class="peliculas-grid">
                     <div class="pelicula-card">
                         <h2>La Pasión de Cristo</h2>
