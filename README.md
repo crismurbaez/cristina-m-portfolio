@@ -1,6 +1,6 @@
 # Portafolio Personal - Cristina Murguía
 
-Este proyecto corresponde a la **Práctica Formativa Obligatoria 1** (PFO1) de la carrera Tecnicatura en Desarrollo de Software. Se trata de una Landing Page profesional diseñada para presentar mi perfil como Full Stack Developer, integrando mis habilidades técnicas, experiencia en proyectos críticos y mis intereses personales.
+Este proyecto corresponde a la **Práctica Formativa Obligatoria 1** (PFO1) de la carrera Tecnicatura en Desarrollo de Software. Se trata de una Landing Page profesional diseñada para presentar mi perfil como Full Stack Developer, integrando mis habilidades, experiencia en proyectos críticos y mis intereses personales.
 
 **URL de Vercel:** https://cristina-m-portfolio.vercel.app/
 
