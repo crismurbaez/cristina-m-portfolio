@@ -667,15 +667,34 @@ footer > p {
         scroll-behavior: auto;
     }
 
+    /* No se eliminan transiciones: duración mínima + hovers más contenidos (coherente con README) */
     .tarjeta,
     .pelicula-card,
     .sobre-mi-foto img,
-    #contacto button[type="submit"] {
-        transition: none;
+    #contacto button[type="submit"],
+    #main-nav a,
+    .redes a {
+        transition-duration: 0.08s;
+        animation-duration: 0.08s;
     }
 
-    .tarjeta:hover,
+    .tarjeta:hover {
+        transform: translateY(-2px);
+    }
+
     .pelicula-card:hover {
-        transform: none;
+        transform: translateY(-1px);
+    }
+
+    .sobre-mi-foto img:hover {
+        transform: scale(1.02);
+    }
+
+    #contacto button[type="submit"]:hover {
+        transform: translateY(-1px);
+    }
+
+    #main-nav a:hover {
+        transform: translateY(-1px);
     }
 }
