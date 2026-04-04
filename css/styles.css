@@ -316,65 +316,108 @@ h1 {
     margin-bottom: 0.75rem;
 }
 
+/* Contenedor: scroll horizontal en pantallas intermedias si hiciera falta */
 .habilidades-contenedor {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    gap: 1.25rem;
-    justify-content: center;
+    width: 100%;
+    max-width: 100%;
     margin-top: 0.5rem;
-}
-
-.habilidades-contenedor > article {
-    background: var(--blanco);
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
     border-radius: var(--radio);
-    padding: 1.5rem 1.35rem;
     border: 1px solid var(--borde);
+    background: var(--blanco);
     box-shadow: var(--sombra-sm);
-    transition: box-shadow 0.25s ease, border-color 0.25s ease;
 }
 
-.habilidades-contenedor > article:hover {
-    box-shadow: var(--sombra-md);
-    border-color: rgba(37, 99, 235, 0.15);
-}
-
-.habilidades-contenedor h2 {
-    font-size: 1rem;
-    font-weight: 700;
-    color: var(--acento);
-    margin-bottom: 1rem;
-    padding-bottom: 0.65rem;
-    border-bottom: 2px solid var(--acento-muted);
-    letter-spacing: -0.01em;
-}
-
-.habilidades-contenedor ul {
-    list-style: none;
-}
-
-.habilidades-contenedor li {
-    position: relative;
-    padding-left: 1.1rem;
-    margin-bottom: 0.75rem;
+.habilidades-tabla {
+    width: 100%;
+    min-width: 520px;
+    border-collapse: collapse;
     font-size: 0.95rem;
+    line-height: 1.5;
     color: var(--texto);
-    line-height: 1.55;
 }
 
-.habilidades-contenedor li:last-child {
-    margin-bottom: 0;
+.habilidades-tabla__caption {
+    caption-side: top;
+    text-align: center;
+    padding: 1rem 1.25rem 0.75rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--texto-suave);
 }
 
-.habilidades-contenedor li::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0.55em;
-    width: 5px;
-    height: 5px;
-    border-radius: 50%;
-    background: var(--acento);
-    opacity: 0.85;
+.habilidades-tabla thead th {
+    text-align: left;
+    font-size: 0.78rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--blanco);
+    background: var(--principal-soft);
+    padding: 0.85rem 1rem;
+    border-bottom: 2px solid var(--acento-muted);
+}
+
+.habilidades-tabla thead th:first-child {
+    border-radius: var(--radio) 0 0 0;
+}
+
+.habilidades-tabla thead th:last-child {
+    border-radius: 0 var(--radio) 0 0;
+}
+
+.habilidades-tabla tbody th,
+.habilidades-tabla tbody td {
+    padding: 0.85rem 1rem;
+    vertical-align: top;
+    border-bottom: 1px solid var(--borde);
+}
+
+.habilidades-tabla tbody th {
+    font-weight: 600;
+    color: var(--acento);
+    background: var(--fondo-elevado);
+    white-space: nowrap;
+}
+
+.habilidades-tabla tbody th[rowspan] {
+    vertical-align: middle;
+    white-space: normal;
+    min-width: 7.75rem;
+    max-width: 11rem;
+    line-height: 1.35;
+}
+
+.habilidades-tabla tbody td:first-of-type {
+    font-weight: 600;
+    color: var(--secundario);
+}
+
+.habilidades-tabla tbody tr:nth-child(even) td,
+.habilidades-tabla tbody tr:nth-child(even) th {
+    background: rgba(37, 99, 235, 0.03);
+}
+
+.habilidades-tabla tbody tr:last-child th,
+.habilidades-tabla tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.habilidades-tabla tbody tr:hover th,
+.habilidades-tabla tbody tr:hover td {
+    background: var(--acento-muted);
+}
+
+/*
+ * Con celdas fusionadas (rowspan), el layout “tarjeta” en móvil no aplica.
+ * En pantallas estrechas se mantiene la tabla real + scroll horizontal en el contenedor.
+ */
+@media (max-width: 680px) {
+    .habilidades-tabla__caption {
+        padding-left: 0.25rem;
+        padding-right: 0.25rem;
+    }
 }
 
 /* —— Contacto —— */
@@ -611,10 +654,6 @@ footer > p {
     }
 
     .tarjetas {
-        grid-template-columns: 1fr;
-    }
-
-    .habilidades-contenedor {
         grid-template-columns: 1fr;
     }
 
