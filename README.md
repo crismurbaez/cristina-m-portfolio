@@ -44,14 +44,14 @@ Este proyecto corresponde a la **Práctica Formativa Obligatoria 1** (PFO1) de l
 #### Layout y organización:
 - [x] Se ha organizado el layout (especialmente en la sección tarjetas) utilizando Flexbox o Grid.
 - [x] Redacta: **¿Qué ventajas encontraste al utilizar Flexbox o Grid en tu proyecto?**
-  > Utilicé **CSS Grid** en proyectos y habilidades las columnas que se reorganizan solas con `auto-fit`/`minmax`. **Flexbox** en el encabezado, “Sobre mí” y el formulario para alinear y repartir espacio en una o dos dimensiones según el ancho de pantalla, lo que simplifica el responsive.
+  > Utilicé **CSS Grid** en proyectos y películas las columnas que se reorganizan solas con `auto-fit`/`minmax`. **Flexbox** en el encabezado, “Sobre mí” y el formulario para alinear y repartir espacio en una o dos dimensiones según el ancho de pantalla, lo que simplifica el responsive.
 #### Estilización de componentes:
 - [x] Se han personalizado los estilos de tablas, botones, enlaces y formularios.
 - [x] Se han ajustado las dimensiones de imágenes y contenedores utilizando unidades relativas (%, rem, vh).
 - [x] Se ha implementado al menos una animación o transición (por ejemplo, efecto hover en tarjetas o botones).
 
 - [x] Redacta: **¿Qué animación o transición implementaste y por qué?**
-  > Implementé **transiciones hover** en tarjetas de proyectos (`transform`, `box-shadow`, `border-color`), en la foto de perfil (`scale` + sombra), en los enlaces del menú (`color`, `background`, elevación y sombra) y en el botón de envío (`transform`, `box-shadow`, `filter`). Las elegí para dar feedback visual claro, jerarquía de interacción y mantener una estética profesional. Además, para accesibilidad, en `prefers-reduced-motion` las transiciones no se desactivan: se reducen a una duración mínima y movimientos suaves.
+  > Implementé **transiciones hover** en tarjetas de proyectos (`transform`, `box-shadow`, `border-color`), en la foto de perfil (`scale` + sombra), en los enlaces del menú (`color`, `background`, elevación y sombra) y en el botón de envío (`transform`, `box-shadow`, `filter`). Las elegí para dar feedback visual claro, jerarquía de interacción y mantener una estética profesional. Además, para accesibilidad, en `prefers-reduced-motion` las transiciones se reducen a una duración mínima y movimientos suaves.
 
 ### • Consideraciones Adicionales:
 - [x] El diseño es responsivo y se visualiza correctamente en distintos dispositivos.
